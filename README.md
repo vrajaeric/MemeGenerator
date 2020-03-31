@@ -1,1 +1,2 @@
 # MemeGenerator
+<!doctype html>
