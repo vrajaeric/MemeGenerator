@@ -4,3 +4,18 @@
 li, ul {
 	list-style: none; 
 }
+
+#image_wrap {
+    /* dimensions */
+    width:700px;
+    padding:15px 0;
+ 
+    /* centered */
+    text-align:center;
+ 
+    /* some "skinning" */
+    background-color:#efefef;
+    border:2px solid #fff;
+    outline:1px solid #ddd;
+    -moz-ouline-radius:4px;
+}
