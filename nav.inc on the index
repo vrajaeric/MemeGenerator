@@ -1,0 +1,7 @@
+		<nav>
+			<ul>
+				<li><a href="Index.php">Home</a></li>
+				<li><a href="Profile.php">Profile</a></li>
+				<li><a href="Misc.php">Misc</a></li>
+			</ul>
+		</nav>
