@@ -19,3 +19,89 @@ li, ul {
     outline:1px solid #ddd;
     -moz-ouline-radius:4px;
 }
+
+
+
+
+
+// css for nav
+div {
+	display: block;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font: 15px helvetica,arial;
+    background: #f0f0f0;
+    position: relative;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.submenu {
+	display: none;
+}
+li, ul {
+	list-style: none; 
+}
+.logo {
+	position: relative;
+}
+.menu {
+	position: relative;
+}
+#navbar-back {
+	position: relative;
+	background: #333;
+	width: 100%;
+	z-index: 9;
+}
+#menu-wrap {
+	float: right;
+}
+#navbar {
+	position: relative;
+    max-width: 1060px;
+    margin: 0 auto;
+    color: #f5f5f5;
+}
+#menu {
+	float: right;
+}
+#logo {
+    width: 120px;
+    height: 48px;
+    margin: 2px 5px;
+    padding: 1px 5px 1px 0;
+}
+img {
+	border: 0;
+}
+.nav {
+    position: relative;
+    float: left;
+    height: 54px;
+    cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
