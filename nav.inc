@@ -12,16 +12,22 @@
 			
 			}
 </script>
- 
-<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="profile.php">Profile</a>
-			
-			<li onclick="toggleMenu('submenu1');"><a href="#">Login</a>
-				<ul class="submenu" id="submenu1">
-					<li><a href="login.php">Login</a></li>
-					<li><a href="signup.php">Sign Up</a></li>
-					<li><a href="signout.php">Sign Out</a></li>
-				</ul>
-			</li>
-</ul>
+<body>
+<div id="navbar-back">
+	<div id="navbar">	
+			<a class="nav" href="index.php"><img id="logo" alt="MemeGen" src="memegen2.png"></a>
+		<div class="nav menu-wrap" id="nav-make"></div>
+		<div class="menu">
+			<ul>
+				<li><a href="profile.php">Profile</a></li>
+				<li onclick="toggleMenu('submenu1');"><a href="#">Login</a>
+			<ul class="submenu" id="submenu1">
+				<li><a href="login.php">Login</a></li>
+				<li><a href="signup.php">Sign Up</a></li>
+				<li><a href="signout.php">Sign Out</a></li>
+			</ul>
+			</ul>
+		<div>
+	</div>
+<div>
+<body>
