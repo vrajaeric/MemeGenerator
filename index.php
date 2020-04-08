@@ -21,7 +21,7 @@
 		</script>
 
 <h1>
-	<a href="index.html">
+	<a href="index.php">
 <img border="0" alt="MemeGen" src="memegen2.png" width="100" height="100">
 </a>
 </h1>
