@@ -1,0 +1,11 @@
+@media (min-width:1199px) {
+  .container {
+    width: 990px;
+  }
+}
+
+.gallery {
+  display: inline-block;
+  margin-top: 20px;
+}
+
