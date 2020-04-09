@@ -16,11 +16,11 @@ if (isset($_POST['submit'])) {
 $file = $_FILES['file']; 
 
 
-	$fileName = $_FILES['file']['name'];
-	$fileTmpName = $_FILES['file']['tmp_name'];
-	$fileSize = $_FILES['file']['size'];
-	$fileError= $_FILES['file']['error'];
-	$fileType = $_FILES['file']['type'];
+	$fileName = $file['name'];
+	$fileTmpName = $file['tmp_name'];
+	$fileSize = $file['size'];
+	$fileError= $file['error'];
+	$fileType = $file['type'];
 	
 	$fileEXT = explode('.', $fileName);
 	$fileActualExt = strtolower(end($fileExt));
@@ -33,7 +33,7 @@ $file = $_FILES['file'];
 			$fileNameNew = uniqid('', true).".".$fileActualExt;
 		$fileDestination = 'uploads/' .$fileNameNew;
 		move_uploaded_file($fileTmpName, $fileDestination);
-		header("Location: index.php");
+		header("Location: index.php?uploadsuccess");
 		
 	} else {
 		echo "Your file is too big!";
