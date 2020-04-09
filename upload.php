@@ -23,7 +23,7 @@ $file = $_FILES['file'];
 	$fileType = $_FILES['file']['type'];
 	
 	$fileEXT = explode('.', $fileName);
-	$fileActualExt = strolower(end($fileExt));
+	$fileActualExt = strtolower(end($fileExt));
 	
 	$allowed = array('jpg', 'jpeg', 'png', 'pdf');
 	
