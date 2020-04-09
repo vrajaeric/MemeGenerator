@@ -19,7 +19,7 @@
 		<div class="nav menu-wrap" id="nav-make"></div>
 		<div class="menu">
 			<ul>
-				<li><a href="profile.php">Profile</a></li>
+				<li><a href="profile.html">Profile</a></li>
 				<li onclick="toggleMenu('submenu1');"><a href="#">Login</a>
 			<ul class="submenu" id="submenu1">
 				<li><a href="login.php">Login</a></li>
