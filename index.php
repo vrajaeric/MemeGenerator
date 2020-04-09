@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<title>Meme Generator</title>
 </head>
-
+<?php include 'nav.inc';?>
 <script>
 			function toggleMenu(arg){
 				if(document.getElementById(arg).style.display=='block'){
