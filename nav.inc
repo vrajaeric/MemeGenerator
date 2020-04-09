@@ -19,12 +19,12 @@
 		<div class="nav menu-wrap" id="nav-make"></div>
 		<div class="menu">
 			<ul>
-				<li><a href="profile.html">Profile</a></li>
+				<li><a href="contact.html">Contact</a></li>
 				<li onclick="toggleMenu('submenu1');"><a href="#">Login</a>
 			<ul class="submenu" id="submenu1">
 				<li><a href="login.php">Login</a></li>
 				<li><a href="signup.php">Sign Up</a></li>
-				<li><a href="signout.php">Sign Out</a></li>
+				<li><a href="profile.html">Profile</a></li>
 			</ul>
 			</ul>
 		<div>
