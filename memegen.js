@@ -1,3 +1,4 @@
+//adapted code by GeekLaunch: https://www.youtube.com/watch?v=aIgWxXlpRvU&t=15s
 let topTextInput, bottomTextInput, topTextSizeInput, bottomTextSizeInput, imageInput, generateBtn, canvas, ctx;
 
 function generateMeme (img, topText, bottomText, topTextSize, bottomTextSize) {
