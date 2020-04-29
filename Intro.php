@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<h1>Welcome to MemeGen</h1>
+
+<p>On this website you will be able to create a meme using our top and bottom text editors. On this page, you can select a saved image from your file directory or you can select an image from our carousel. Once you select an image, you can add text into the top and bottom text boxes. Then you can select the text size to make sure it fits the canvas. After that, click generate. This will create your meme and it will be available for download. We also have profile integration. You can create a profile to save your images in a private gallery. Thank you for using our website and make sure you check out or Terms of Service. </p>
